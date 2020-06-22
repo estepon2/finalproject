@@ -1,8 +1,8 @@
 //Actions creator
-export const selectBook = (book) => {
+export const selectPoliza = (poliza) => {
     //Action
     return {
-        type: 'BOOK_SELECTED',
-        payload: book
+        type: 'POLIZA_SELECTED',
+        payload: poliza
     }
 } 

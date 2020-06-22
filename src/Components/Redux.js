@@ -75,17 +75,17 @@ const Redux = () => {
 
     console.log(store.getState())
 
-    store.dispatch(createPolicy('Manuel', 100))
-    store.dispatch(createPolicy('Andres', 200))
-    store.dispatch(createPolicy('Luis', 500))
+    store.dispatch(createPolicy('Julio', 100))
+    store.dispatch(createPolicy('Briones', 200))
+    store.dispatch(createPolicy('Correa', 500))
     
     console.log(store.getState())
 
-    store.dispatch(claimPolicy('Luis', 10))
+    store.dispatch(claimPolicy('Julio', 10))
 
     console.log(store.getState())
     
-    store.dispatch(deletePolicy('Manuel'))
+    store.dispatch(deletePolicy('Briones'))
     
     console.log(store.getState().policies)
 
